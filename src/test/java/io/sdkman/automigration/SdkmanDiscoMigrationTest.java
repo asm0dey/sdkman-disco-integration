@@ -246,8 +246,7 @@ class SdkmanDiscoMigrationTest {
 				entry("package_type", List.of("jdk")),
 				entry("release_status", List.of("ga")),
 				entry("version", List.of(version)),
-				entry("architecture", List.of(architecture)),
-				entry("latest", List.of("available")));
+				entry("architecture", List.of(architecture)));
 		// @formatter:on
 	}
 
@@ -264,8 +263,7 @@ class SdkmanDiscoMigrationTest {
 				entry("package_type", List.of("jdk")),
 				entry("release_status", List.of("ga")),
 				entry("version", List.of(version)),
-				entry("architecture", List.of(architecture)),
-				entry("latest", List.of("available")));
+				entry("architecture", List.of(architecture)));
 		// @formatter:on
 	}
 

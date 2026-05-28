@@ -20,8 +20,7 @@ public class FoojayClient {
     public static final Map<String, List<String>> defaultQueryParams =
             Map.of("package_type", List.of("jdk"),
                     "libc_type", List.of("glibc", "c_std_lib", "libc"),
-                    "directly_downloadable", List.of("true"),
-                    "latest", List.of("available"));
+                    "directly_downloadable", List.of("true"));
 	// @formatter:on
 
 	private final RestClient restClient;
